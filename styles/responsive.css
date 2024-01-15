@@ -6,7 +6,7 @@
         margin-top: 1rem;
         gap: 1rem;
     }
-    .tour-section-content,.tour-section-img,.banner-section,.destination-section{
+    .tour-section-content,.tour-section-img,.banner-section,.destination-section,.why-choose-us,.first-reason,.second-reason{
         width: 90%;
         margin: 0 auto;
     }
@@ -16,5 +16,12 @@
     }
     .destination-place-img-container img{
         width: 100%;
+    }
+    .reason-container{
+        gap: 0;
+    }
+    .first-reason,.second-reason,.third-reason{
+        width: 90%;
+        margin-bottom: .8rem;
     }
 }

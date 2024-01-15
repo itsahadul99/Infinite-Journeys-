@@ -28,6 +28,24 @@
     cursor: pointer;
 }
 
+.common-section-content {
+    text-align: center;
+}
+
+.common-section-title {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 1.3rem;
+}
+
+.common-section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1.4rem;
+}
+
 /* global style end here */
 /* nav section style start here */
 .nav-container {
@@ -131,6 +149,7 @@
 .popular-tour-section {
     margin: 5rem auto;
     gap: 3.2rem;
+    margin-bottom: 0;
 
 }
 
@@ -164,63 +183,59 @@
     object-fit: cover;
     border-radius: 16px;
 }
+
 /* tour section style end here */
 /* destination section start here */
-.destination-content {
-    text-align: center;
-}
-.destination-title {
-    color: #131318;
-    font-size: 2.4rem;
-    font-weight: 800;
-    margin-bottom: 1.3rem;
-}
-.destination-description {
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
-    font-weight: 400;
-    padding-bottom: 1.4rem;
-}
+
 .destination-place-img-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1.4rem;
 }
+
 .destination-place-img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 1rem;
 }
+
 .destination-maldives {
     grid-column: 1/7;
     position: relative;
 }
+
 .destination-indonesia {
     grid-column: 7/13;
     position: relative;
 }
+
 .destination-srilanka {
     grid-column: 1/4;
     position: relative;
 }
+
 .destination-north-america {
     grid-column: 4/10;
     position: relative;
 }
+
 .destination-kashmir {
     grid-column: 10/13;
     position: relative;
 }
+
 .destination-bangladesh {
     grid-column: 1/6;
     position: relative;
 }
+
 .destination-bandarban {
     grid-column: 6/13;
     position: relative;
 }
+
 .img-title {
     position: absolute;
     bottom: 50%;
@@ -232,4 +247,53 @@
     font-size: 1.8rem;
     font-weight: 800;
 }
+
 /* destination section style end here */
+/* why-choose-us section style start here */
+.first-reason,
+.second-reason{
+    max-width: 530px;
+    max-height: 280px;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.reason-container {
+    gap: 1.5rem;
+}
+
+.first-reason {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.second-reason {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.third-reason {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 530px;
+    max-height: 280px;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.reason-title {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+.reason-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+/* why-choose-us section style end here */
