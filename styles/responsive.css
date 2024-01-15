@@ -6,7 +6,7 @@
         margin-top: 1rem;
         gap: 1rem;
     }
-    .tour-section-content,.tour-section-img,.banner-section,.destination-section,.why-choose-us,.first-reason,.second-reason{
+    .tour-section-content,.tour-section-img,.banner-section,.destination-section,.why-choose-us,.first-reason,.second-reason,.newsletter-subscribe{
         width: 90%;
         margin: 0 auto;
     }
@@ -23,5 +23,17 @@
     .first-reason,.second-reason,.third-reason{
         width: 90%;
         margin-bottom: .8rem;
+    }
+    .newsletter-container{
+        margin-top:1rem ;
+    }
+    .newsletter-subscribe input,.newsletter-subscribe button{
+        width: 100%;
+    }
+    .newsletter-discount-container img{
+        width: 90%;
+    }
+    .discount{
+        
     }
 }

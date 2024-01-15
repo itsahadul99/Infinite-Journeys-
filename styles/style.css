@@ -186,7 +186,6 @@
 
 /* tour section style end here */
 /* destination section start here */
-
 .destination-place-img-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -251,8 +250,8 @@
 /* destination section style end here */
 /* why-choose-us section style start here */
 .first-reason,
-.second-reason{
-    max-width: 530px;
+.second-reason {
+    max-width: 630px;
     max-height: 280px;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
@@ -277,7 +276,7 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    max-width: 530px;
+    max-width: 630px;
     max-height: 280px;
     border-radius: 1rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -290,10 +289,100 @@
     font-weight: 800;
     padding-left: 1rem;
 }
+
 .reason-description {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
     padding: 1rem;
 }
+
 /* why-choose-us section style end here */
+/* newsletter section style start here */
+.newsletter-container {
+    gap: 2.5rem;
+    margin-top: 6.25rem;
+}
+
+.newsletter-subscribe {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    width: 40%;
+}
+
+.newsletter-subscribe input {
+    display: block;
+    width: 390px;
+    height: 50px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    border-radius: 8px;
+    padding: 1rem;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: .2rem;
+}
+
+.newsletter-des {
+    color: #5A5A5D;
+    width: 300px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.subscribe-btd {
+    width: 390px;
+    height: 50px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+}
+.newsletter-discount-container{
+    position: relative;
+}
+.newsletter-discount-container img{
+    border-radius: 1.5rem;
+    /* background: url(../image/north-america.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    position: relative;
+}
+.discount {
+    width: 40%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transform: rotate(-20.62deg);
+    background-color: #FF5400;
+    position: absolute;
+    top: 66%;
+    left: 59%;
+    text-align: center;
+}
+.discount h1 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.discount h5 {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 200;
+}
+/* newsletter section style end here */
