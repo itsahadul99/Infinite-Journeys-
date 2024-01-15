@@ -1,0 +1,14 @@
+@media screen and (max-width:600px) {
+    .flex{
+        flex-direction: column;
+    }
+    .popular-tour-section{
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+    .tour-section-content,.tour-section-img,.banner-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
