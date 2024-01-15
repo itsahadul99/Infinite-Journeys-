@@ -6,9 +6,15 @@
         margin-top: 1rem;
         gap: 1rem;
     }
-    .tour-section-content,.tour-section-img,.banner-section{
+    .tour-section-content,.tour-section-img,.banner-section,.destination-section{
         width: 90%;
         margin: 0 auto;
     }
-
+    .destination-place-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-place-img-container img{
+        width: 100%;
+    }
 }

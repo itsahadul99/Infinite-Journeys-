@@ -93,6 +93,7 @@
     max-width: 690px;
     text-align: center;
 }
+
 .banner-title {
     color: #FFF;
     font-size: 4rem;
@@ -100,12 +101,14 @@
     padding-top: 6.9rem;
     padding-bottom: 1rem;
 }
+
 .banner-description {
     color: #FFF;
     text-align: center;
     font-size: 1rem;
     padding-bottom: .5rem;
 }
+
 .search-var {
     max-width: 800px;
     max-height: 80px;
@@ -114,6 +117,7 @@
     background: rgba(255, 255, 255, 0.30);
     padding: .8rem;
 }
+
 .search-var input {
     width: 170px;
     height: 52px;
@@ -121,6 +125,7 @@
     background: #FFF;
     border: 0;
 }
+
 /* banner section style end here */
 /* tour section style start here */
 .popular-tour-section {
@@ -128,16 +133,19 @@
     gap: 3.2rem;
 
 }
+
 .tour-section-content {
     text-align: left;
-    width:calc((100% - 3.2rem)/2);
+    width: calc((100% - 3.2rem)/2);
 }
+
 .tour-section-title {
     padding-bottom: 1.5rem;
     color: #131318;
     font-size: 2.4rem;
     font-weight: 800;
 }
+
 .tour-section-description,
 .tour-list {
     padding-bottom: 1rem;
@@ -145,9 +153,11 @@
     font-size: 1rem;
     font-weight: 400;
 }
-.tour-section-img{
+
+.tour-section-img {
     width: 50%;
 }
+
 .tour-section-img img {
     width: 100%;
     height: 80%;
@@ -156,3 +166,62 @@
 }
 
 /* tour section style end here */
+/* destination section start here */
+.destination-content {
+    text-align: center;
+}
+
+.destination-title {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 1.3rem;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1.4rem;
+}
+.destination-place-img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.destination-place-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.destination-maldives {
+    grid-column: 1/7;
+}
+
+.destination-indonesia {
+    grid-column: 7/13;
+}
+
+.destination-srilanka {
+    grid-column: 1/4;
+}
+
+.destination-north-america {
+    grid-column: 4/10;
+}
+
+.destination-kashmir {
+    grid-column: 10/13;
+}
+
+.destination-bangladesh {
+    grid-column: 1/6;
+}
+
+.destination-bandarban {
+    grid-column: 6/13;
+}
