@@ -249,6 +249,9 @@
 
 /* destination section style end here */
 /* why-choose-us section style start here */
+.why-choice-us{
+    margin-top: 6rem;
+}
 .first-reason,
 .second-reason {
     max-width: 630px;
@@ -386,3 +389,34 @@ hr {
     font-weight: 200;
 }
 /* newsletter section style end here */
+/* footer section start here */
+.footer{
+    display: flex;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.25rem;
+}
+.footer-logo-container{
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.social-icons{
+    padding-top: 1.6rem;
+    padding-bottom: 1.7rem;
+}
+.social-icons a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #131318;
+}
+#copyrights{
+    margin-top: 2rem;
+    color: #131318;
+font-size: 1rem;
+font-weight: 300;
+}
