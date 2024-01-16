@@ -1,4 +1,5 @@
 @media screen and (max-width:600px) {
+
     /* global or shared style */
     .flex {
         flex-direction: column;
@@ -22,47 +23,56 @@
         width: 90%;
         margin: 0 auto;
     }
-        
+
     .footer,
     .why-choice-us {
         margin-top: 1rem;
     }
+
     .logo-img {
         width: 40px;
-    } 
+    }
+
     /* global or shared style end */
-    /* navigation */ 
+    /* navigation */
     .logo-container {
         display: flex;
         flex-direction: row;
         gap: .2rem;
     }
+
     .ul-container {
         display: none;
     }
+
     .logo-title,
     .special {
         font-size: 1rem;
     }
+
     .nav-container {
         flex-direction: row;
         padding: 1rem 0rem;
     }
+
     /* navigation end */
     /* banner section  */
 
     .banner-title {
         padding-top: .5rem;
     }
+
     .search-var {
         width: 350px;
         max-height: 800px;
     }
+
     .search-var button {
         width: 90%;
         height: 52px;
         margin-left: .5rem;
     }
+
     .search-var input {
         width: 90%;
         height: 52px;
@@ -71,10 +81,12 @@
         border: 0;
         margin: .5rem;
     }
+
     #when,
     #type {
         display: none;
     }
+
     /* banner section end */
     /* destination section */
     .destination-place-img-container {
@@ -85,17 +97,20 @@
     .destination-place-img-container img {
         width: 100%;
     }
+
     /* destination section end */
     /* why choose us section */
     .reason-container {
         gap: 0;
     }
+
     .first-reason,
     .second-reason,
     .third-reason {
         width: 90%;
         margin-bottom: .8rem;
     }
+
     /* why choose us section end */
     /* blog and review section  */
     .review-container {
@@ -134,6 +149,7 @@
     #some-blogs {
         padding-left: 1rem;
     }
+
     /* blog and review section end */
     /* newsletter section  */
     .newsletter-container {
@@ -172,6 +188,7 @@
         font-size: .5rem;
         font-weight: 200;
     }
+
     /* newsletter section end */
     /* footer section */
     .footer-logo-container {
@@ -183,17 +200,20 @@
     .clients {
         font-size: 2.2rem;
     }
+
     .clients,
     .footer-special {
         color: #FF5400;
         font-size: 2.2rem;
         font-weight: 800;
     }
+
     .footer-logo-title {
         color: #131318;
         font-size: 2.2rem;
         font-weight: 800;
     }
+
     /* footer section end */
-    
+
 }

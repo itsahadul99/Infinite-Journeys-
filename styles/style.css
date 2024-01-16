@@ -54,25 +54,32 @@
     justify-content: space-between;
     align-items: center;
 }
+#home{
+    color: #FF5400;
+}
 .logo-container {
     align-items: center;
     gap: 1.5rem;
 }
-.logo-title{
+
+.logo-title {
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
 }
+
 .special {
     color: #FF5400;
     font-size: 2.2rem;
     font-weight: 800;
 }
+
 .ul-container {
     list-style: none;
     gap: 1.5rem;
     padding: .8rem;
 }
+
 .ul-container li a {
     text-decoration: none;
     color: #424247;
@@ -80,11 +87,13 @@
     text-align: center;
     font-size: 1.1rem;
 }
+
 .ul-container li a:hover {
     background-color: #8080800e;
     border-radius: .5rem;
     color: #FF5400;
 }
+
 /* nav section style end here */
 /* banner section style start here */
 .banner-section {
@@ -327,6 +336,7 @@
 .review-section {
     margin-top: 5rem;
 }
+
 .review-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -335,6 +345,7 @@
     gap: 2rem;
     padding-top: 2rem;
 }
+
 .review {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -348,6 +359,7 @@
     transition: all .5s;
     cursor: pointer;
 }
+
 .review-img {
     width: 50%;
     height: 50%;
@@ -369,25 +381,31 @@
     font-weight: 600;
     color: #5A5A5D;
 }
+
 .review-person-nam {
     font-weight: 600;
 }
+
 .person-email {
     font-size: .5rem;
 }
+
 #some-blogs {
     font-size: 1.2rem;
     font-weight: 600;
     color: #131318;
 }
+
 .blogs-container {
     gap: 1rem;
     margin-top: 1rem;
 }
+
 .blogs-container img {
     width: 30%;
 }
-.see-more{
+
+.see-more {
     width: 100px;
     height: 20px;
     border-radius: 5px;
@@ -398,29 +416,34 @@
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
-    cursor: pointer; 
+    cursor: pointer;
 }
-.blog-title{
+
+.blog-title {
     font-size: 1.5rem;
     font-weight: 600;
     color: #131318;
     padding-bottom: 1rem;
 }
-.blog-des{
+
+.blog-des {
     font-size: .9rem;
     color: #424247;
 }
+
 /* newsletter section style start here */
 .newsletter-container {
     gap: 2.5rem;
     margin-top: 6.25rem;
 }
+
 .newsletter-subscribe {
     padding: 1rem;
     border-radius: 1rem;
     border: 1px solid #FF5400;
     width: 40%;
 }
+
 .newsletter-subscribe input {
     display: block;
     width: 390px;
@@ -433,6 +456,7 @@
     background: rgba(19, 19, 24, 0.05);
     border: 0;
 }
+
 .newsletter-title {
     color: #131318;
     font-size: 1.5rem;
@@ -440,6 +464,7 @@
     font-weight: 800;
     margin-bottom: .2rem;
 }
+
 .newsletter-des {
     color: #5A5A5D;
     width: 300px;
@@ -447,9 +472,11 @@
     font-weight: 400;
     margin-bottom: 1.5rem;
 }
+
 hr {
     background: rgba(19, 19, 24, 0.10);
 }
+
 .subscribe-btd {
     width: 390px;
     height: 50px;
@@ -458,9 +485,11 @@ hr {
     background: #FF5400;
     border: 0;
 }
+
 .newsletter-discount-container {
     position: relative;
 }
+
 .newsletter-discount-container img {
     border-radius: 1.5rem;
     /* background: url(../image/north-america.png);
@@ -470,6 +499,7 @@ hr {
     width: 100%;
     position: relative;
 }
+
 .discount {
     width: 40%;
     padding: 1.5rem;
@@ -481,16 +511,19 @@ hr {
     left: 59%;
     text-align: center;
 }
+
 .discount h1 {
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 800;
 }
+
 .discount h5 {
     color: #FFF;
     font-size: 1rem;
     font-weight: 200;
 }
+
 /* newsletter section style end here */
 /* footer section start here */
 .footer {
@@ -503,20 +536,24 @@ hr {
     justify-content: center;
     margin-top: 6.25rem;
 }
+
 .footer-logo-container {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
 .social-icons {
     padding-top: 1.6rem;
     padding-bottom: 1.7rem;
 }
+
 .social-icons a {
     padding: 1rem;
     font-size: 1.5rem;
     color: #131318;
 }
+
 #copyrights {
     margin-top: 2rem;
     color: #131318;
