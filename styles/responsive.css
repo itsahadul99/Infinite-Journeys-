@@ -85,7 +85,17 @@
     .logo-img{
         width: 40px;
     }
-
+    .review-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .review{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .review-img{
+        margin: 0 auto;
+    }
 
 }
     
