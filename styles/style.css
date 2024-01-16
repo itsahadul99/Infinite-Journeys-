@@ -54,32 +54,25 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .logo-container {
     align-items: center;
     gap: 1.5rem;
 }
-
-.logo-title {
+.logo-title{
     color: #131318;
-    font-family: Mulish;
     font-size: 2.2rem;
     font-weight: 800;
 }
-
 .special {
     color: #FF5400;
-    font-family: Mulish;
     font-size: 2.2rem;
     font-weight: 800;
 }
-
 .ul-container {
     list-style: none;
     gap: 1.5rem;
     padding: .8rem;
 }
-
 .ul-container li a {
     text-decoration: none;
     color: #424247;
@@ -87,13 +80,11 @@
     text-align: center;
     font-size: 1.1rem;
 }
-
 .ul-container li a:hover {
     background-color: #8080800e;
     border-radius: .5rem;
     color: #FF5400;
 }
-
 /* nav section style end here */
 /* banner section style start here */
 .banner-section {
@@ -353,11 +344,10 @@
     background-color: #FFFFFF;
     align-items: end;
     border-radius: .5rem;
-    box-shadow: 1px 1px 2px 1px;
+    box-shadow: 1px 1px 2px red;
     transition: all .5s;
     cursor: pointer;
 }
-
 .review-img {
     width: 50%;
     height: 50%;
