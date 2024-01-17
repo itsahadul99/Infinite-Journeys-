@@ -54,17 +54,21 @@
         flex-direction: row;
         padding: 1rem 0rem;
     }
-
+    .menu-icon{
+        display: block;
+    }
     /* navigation end */
     /* banner section  */
-
+    .banner-section{
+        height: 100%;
+    }
     .banner-title {
         padding-top: .5rem;
     }
 
     .search-var {
-        width: 350px;
-        max-height: 800px;
+        width: 90%;
+        max-height: 90%;
     }
 
     .search-var button {
@@ -81,12 +85,10 @@
         border: 0;
         margin: .5rem;
     }
-
     #when,
     #type {
         display: none;
     }
-
     /* banner section end */
     /* destination section */
     .destination-place-img-container {
@@ -155,7 +157,9 @@
     .newsletter-container {
         margin-top: 1rem;
     }
-
+    .newsletter-des{
+        width: 90%;
+    }
     .newsletter-subscribe input,
     .newsletter-subscribe button {
         width: 100%;

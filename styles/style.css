@@ -27,7 +27,11 @@
     font-weight: 700;
     cursor: pointer;
 }
-
+.btd-primary:hover{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid white;
+}
 .common-section-content {
     text-align: center;
 }
@@ -93,7 +97,9 @@
     border-radius: .5rem;
     color: #FF5400;
 }
-
+.menu-icon{
+    display: none;
+}
 /* nav section style end here */
 /* banner section style start here */
 .banner-section {
@@ -202,7 +208,18 @@
     object-fit: cover;
     border-radius: 16px;
 }
-
+.read-more:hover{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
 /* tour section style end here */
 /* destination section start here */
 .destination-place-img-container {
@@ -356,7 +373,7 @@
     align-items: end;
     border-radius: .5rem;
     box-shadow: 1px 1px 2px red;
-    transition: all .5s;
+    transition: all .3s;
     cursor: pointer;
 }
 
@@ -418,7 +435,6 @@
     font-weight: 600;
     cursor: pointer;
 }
-
 .blog-title {
     font-size: 1.5rem;
     font-weight: 600;
@@ -484,8 +500,11 @@ hr {
     border-radius: 8px;
     background: #FF5400;
     border: 0;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
 }
-
 .newsletter-discount-container {
     position: relative;
 }
